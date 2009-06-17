@@ -5,7 +5,7 @@ class LobbyConstructor
   
   ##
   # This method is responsible for constructing the "lobby environment."
-  def self.construct
+  def self.construct!
     lobby = ::Kernel::lobby
     def lobby.inspect
       "lobby"

@@ -2,9 +2,9 @@
 require 'lobby'
 
 describe LobbyConstructor do
-  describe '::construct' do
+  describe '::construct!' do
     before :all do
-      LobbyConstructor::construct
+      LobbyConstructor::construct!
     end
     
     it 'should rename the root object to "lobby"' do
