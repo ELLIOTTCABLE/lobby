@@ -1,0 +1,5 @@
+README.markdown
+Rakefile.rb
+lib/lobby.rb
+spec/lobby_spec.rb
+.manifest
